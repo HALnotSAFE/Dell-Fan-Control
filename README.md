@@ -27,7 +27,7 @@ This script allows you to configure the fan speeds of multiple Dell servers usin
    Open a PowerShell terminal and navigate to the directory containing the script. Run the script with the following command:
 
    ```.\DellR620FanScript.ps1```
-## Enter Server Details
+### Enter Server Details
 
   The script will prompt you to enter the number of servers you want to configure. For each server, you will need to provide:
 
