@@ -35,8 +35,8 @@ This script allows you to configure the fan speeds of multiple Dell servers usin
   - Username
   - Password
   - Fan Speed (choose from the following options: Off, 10%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%)
-  - The fan speed options correspond to the following hexadecimal values:
-
+    
+   The fan speed options correspond to the following hexadecimal values:
    - Off: 0x00
    - 10%: 0x0A
    - 20%: 0x14
@@ -48,6 +48,7 @@ This script allows you to configure the fan speeds of multiple Dell servers usin
    - 80%: 0x50
    - 90%: 0x5A
    - 100%: 0x64
+        
 ## Configuration Storage
 
   The script stores the entered server details and fan speed settings in a configuration file located in your user profile directory (serverConfig.json). This allows the script to reuse these details in future runs.
